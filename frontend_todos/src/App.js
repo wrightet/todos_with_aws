@@ -60,7 +60,7 @@ function App() {
   }
   return (
     <div className="app">
-      <div className='todoList'>
+      <div className='todo-list'>
         {todos.map((todo, i) =>
           <Todo key={i} todo={todo} index={i} completeTodo={completeTodo} deleteTodo={deleteTodo} />
         )}
