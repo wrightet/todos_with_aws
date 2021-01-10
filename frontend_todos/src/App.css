@@ -22,3 +22,18 @@
   margin-bottom: 6px;
   padding: 3px 10px;
 }
+
+.delete-button {
+  color: white;
+  background-color: black;
+  border: none;
+  cursor: pointer;
+
+}
+
+.complete {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
