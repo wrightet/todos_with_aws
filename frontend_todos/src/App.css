@@ -28,7 +28,11 @@
   background-color: black;
   border: none;
   cursor: pointer;
+}
 
+.delete-button:hover {
+  color: red;
+  background-color: grey;
 }
 
 .complete {
@@ -37,3 +41,7 @@
   cursor: pointer;
 }
 
+.complete:hover {
+  color:blue;
+  text-decoration: underline;
+}
